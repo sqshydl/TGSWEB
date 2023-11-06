@@ -1,0 +1,45 @@
+h1 {
+    color: #9C8CD9; /* Soft Purple for headings */
+    text-align: center;
+    font-family: 'Roboto Mono', monospace; /* Set the font to Roboto Mono */
+}
+
+.product {
+    text-align: center;
+    border: 1px solid #CBB7E0; /* Light Purple for product borders */
+    background-color: #D9C8F5; /* Even lighter Purple for product background */
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #584D7D; /* Darker Purple for product details text */
+    font-family: 'Roboto Mono', monospace; /* Set the font to Roboto Mono */
+}
+
+#cart {
+    border: 1px solid #CBB7E0; /* Light Purple for cart borders */
+    background-color: #D9C8F5; /* Even lighter Purple for cart background */
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #584D7D; /* Darker Purple for cart details text */
+    font-family: 'Roboto Mono', monospace; /* Set the font to Roboto Mono */
+}
+
+#checkout {
+    border: 1px solid #9C8CD9; /* Soft Purple for checkout borders */
+    background-color: #D9C8F5; /* Even lighter Purple for checkout background */
+    padding: 10px;
+    color: #584D7D; /* Darker Purple for checkout details text */
+    font-family: 'Roboto Mono', monospace; /* Set the font to Roboto Mono */
+}
+
+button {
+    background-color: #9C8CD9; /* Soft Purple for buttons */
+    color: #fff; /* White text color for buttons */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace; /* Set the font to Roboto Mono */
+}
+
+button:hover {
+    background-color: #CBB7E0; /* Light Purple on hover */
+}

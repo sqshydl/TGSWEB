@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tora UAS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Daftar Produk</h1>
+    <div id="product-list">
+        <div class="product">
+            <h3>Susu Kotak</h3>
+            <p>Harga: Rp10.000</p>
+            <button onclick="addToCart('Susu Kotak', 10000)">Tambahkan ke Keranjang</button>
+        </div>
+        <div class="product">
+            <h3>Susu Bubuk</h3>
+            <p>Harga: Rp30.000</p>
+            <button onclick="addToCart('Susu Bubuk', 30000)">Tambahkan ke Keranjang</button>
+        </div>
+        <div class="product">
+            <h3>Susu Tubruk</h3>
+            <p>Harga: Rp50.000</p>
+            <button onclick="addToCart('Susu Tubruk', 50000)">Tambahkan ke Keranjang</button>
+        </div>
+    </div>
+
+    <h1>Keranjang Belanja</h1>
+    <div id="cart">
+        <p>Keranjang belanja kosong.</p>
+    </div>
+
+    <h1>Checkout</h1>
+    <div id="checkout">
+        <p>Total Harga: Rp0</p>
+        <input type="number" id="inputMoney" placeholder="Jumlah Uang">
+        <button onclick="checkout()">Bayar</button>
+    </div>
+
+    <div id="change">
+        <p>Kembalian: Rp0</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
